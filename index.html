@@ -747,7 +747,74 @@ img {
     max-width: 100%;
     height: auto;
 }
+.navbar {
+    width: 100%;
+    padding: 10px 15px;
+}
 
+.navbar-brand img {
+    max-width: 100%; 
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    font-size: 1.5rem;
+    color: #000; 
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        width: 140px; 
+    }
+
+    .navbar-toggler {
+        display: block;
+        float: right;
+        margin-right: 10px;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        display: block;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 16px;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        display: block;
+        border-bottom: 1px solid #eee; 
+    }
+
+    .navbar-collapse {
+        background-color: #fff; 
+        padding: 10px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .navbar-brand img {
+        width: 160px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+}
     </style>
 </head>
 <body>
