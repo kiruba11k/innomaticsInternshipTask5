@@ -10,140 +10,13 @@
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
+
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-@media (max-width: 576px) {
-    header {
-        padding: 10px;
-    }
-    .navbar-brand img {
-        width: 150px;
-    }
-    .h1 {
-        font-size: 2.5rem;
-        margin-left: 10px;
-    }
-    nav .navbar-nav {
-        text-align: center;
-    }
-
-    .col-lg-6 {
-        width: 100%;
-        margin: 0 auto;
-        padding: 15px;
-    }
-    .box {
-        width: 100%;
-    }
-
-    .features img {
-        padding-left: 0;
-        padding-top: 30px;
-    }
-
-    .testimonial .text2 {
-        margin-left: 0;
-    }
-}
-
-@media (min-width: 577px) and (max-width: 768px) {
-    header {
-        padding: 20px;
-    }
-    .navbar-brand img {
-        width: 200px;
-    }
-    .h1 {
-        font-size: 4rem;
-        margin-left: 15px;
-    }
-
-    .col-lg-6 {
-        width: 100%;
-        margin: 0 auto;
-        padding: 20px;
-    }
-    .box {
-        width: 100%;
-    }
-
-    .testimonial .text2 {
-        margin-left: 5rem;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 992px) {
-    header {
-        padding: 30px;
-    }
-    .navbar-brand img {
-        width: 240px;
-    }
-    .h1 {
-        font-size: 6rem;
-        margin-left: 25px;
-    }
-
-    .col-lg-6 {
-        width: 100%;
-        margin: 0 auto;
-        padding: 25px;
-    }
-
-    .testimonial .text2 {
-        margin-left: 10rem;
-    }
-}
-
-@media (min-width: 993px) {
-    header {
-        padding: 40px;
-    }
-    .navbar-brand img {
-        width: 260px;
-    }
-    .h1 {
-        font-size: 8rem;
-        margin-left: 30px;
-    }
-
-    .col-lg-6 {
-        width: 50%;
-        margin: 0 auto;
-        padding: 30px;
-    }
-
-    .testimonial .text2 {
-        margin-left: 15rem;
-    }
-}
-@media (max-width: 768px) {
-    .footer-section {
-        text-align: center;
-    }
-    .footer-social-icons {
-        justify-content: center;
-    }
-    .footer-section .col-lg-4 {
-        margin-bottom: 30px;
-    }
-}
-
 .nav-link {
     display: inline-block;
     color: #000; 
@@ -670,6 +543,210 @@ border-radius: 15px;
   }
 }
 
+@media (max-width: 576px) {
+    header {
+        padding: 10px;
+    }
+    .navbar-brand img {
+        width: 150px;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    .h1 {
+        font-size: 2.5rem;
+        margin-left: 10px;
+    }
+
+    .col-lg-6 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    .box {
+        width: 100%;
+        position: static;
+    }
+    .wave {
+        width: 500px;
+        height: 400px;
+    }
+
+    .features img {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cert1, .card2, .testimonial {
+        padding: 10px;
+        margin: 10px 0;
+    }
+    .testimonial .text2 {
+        margin-left: 0;
+        padding: 0 15px;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+    .footer-section .col-lg-4 {
+        margin-bottom: 20px;
+    }
+    .footer-social-icons {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .navbar-brand img {
+        width: 180px;
+    }
+    .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+    .h1 {
+        font-size: 3.5rem;
+        margin-left: 15px;
+    }
+
+    .col-lg-6 {
+        width: 100%;
+        padding: 20px;
+    }
+    .box {
+        width: 100%;
+    }
+    .wave {
+        width: 700px;
+        height: 500px;
+    }
+
+    .testimonial .text2 {
+        margin-left: 2rem;
+    }
+    .cert1, .card2, .testimonial {
+        padding: 15px;
+        margin: 15px 0;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+    .footer-section .col-lg-4 {
+        margin-bottom: 20px;
+    }
+    .footer-social-icons {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .navbar-brand img {
+        width: 240px;
+    }
+    .h1 {
+        font-size: 6rem;
+        margin-left: 20px;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+        padding: 25px;
+    }
+    .box {
+        width: 100%;
+    }
+    .wave {
+        width: 1000px;
+        height: 700px;
+    }
+
+    .testimonial .text2 {
+        margin-left: 5rem;
+    }
+
+    .footer-section {
+        text-align: left;
+    }
+}
+
+@media (min-width: 993px) {
+    .navbar-brand img {
+        width: 260px;
+    }
+    .h1 {
+        font-size: 8rem;
+        margin-left: 30px;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+        padding: 30px;
+    }
+    .box {
+        width: 100%;
+    }
+    .wave {
+        width: 1500px;
+        height: 1000px;
+    }
+
+    .footer-section {
+        text-align: left;
+    }
+    .footer-social-icons {
+        justify-content: left;
+    }
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+.navbar-toggler-icon {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.footer-section {
+    padding: 40px;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+.footer-title {
+    color: #ffb400;
+}
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    color: #ffb400;
+    transition: all 0.3s ease;
+}
+.footer-social-icons .social-icon {
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+.footer-social-icons .social-icon:hover {
+    color: #ffb400;
+    transform: rotate(360deg);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
     </style>
 </head>
