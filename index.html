@@ -10,10 +10,141 @@
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
-        body {
-            font-family: "Roboto", sans-serif;
-        }
-        .nav-link {
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    header {
+        padding: 10px;
+    }
+    .navbar-brand img {
+        width: 150px;
+    }
+    .h1 {
+        font-size: 2.5rem;
+        margin-left: 10px;
+    }
+    nav .navbar-nav {
+        text-align: center;
+    }
+
+    .col-lg-6 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    .box {
+        width: 100%;
+    }
+
+    .features img {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .testimonial .text2 {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+    .navbar-brand img {
+        width: 200px;
+    }
+    .h1 {
+        font-size: 4rem;
+        margin-left: 15px;
+    }
+
+    .col-lg-6 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .box {
+        width: 100%;
+    }
+
+    .testimonial .text2 {
+        margin-left: 5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    header {
+        padding: 30px;
+    }
+    .navbar-brand img {
+        width: 240px;
+    }
+    .h1 {
+        font-size: 6rem;
+        margin-left: 25px;
+    }
+
+    .col-lg-6 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 25px;
+    }
+
+    .testimonial .text2 {
+        margin-left: 10rem;
+    }
+}
+
+@media (min-width: 993px) {
+    header {
+        padding: 40px;
+    }
+    .navbar-brand img {
+        width: 260px;
+    }
+    .h1 {
+        font-size: 8rem;
+        margin-left: 30px;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .testimonial .text2 {
+        margin-left: 15rem;
+    }
+}
+@media (max-width: 768px) {
+    .footer-section {
+        text-align: center;
+    }
+    .footer-social-icons {
+        justify-content: center;
+    }
+    .footer-section .col-lg-4 {
+        margin-bottom: 30px;
+    }
+}
+
+.nav-link {
     display: inline-block;
     color: #000; 
     transition: transform 0.3s ease, color 0.3s ease;
